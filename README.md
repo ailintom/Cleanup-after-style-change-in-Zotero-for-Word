@@ -12,9 +12,9 @@ Examples after switching citation style:
 
 This issue was raised in at least two forum discussions, and no solution was proposed:  [Change citation style before-after periods](https://forums.zotero.org/discussion/38758/change-citation-style-before-after-periods) and [https://forums.zotero.org/discussion/56749/chicago-manual-of-style-citations-footnotes-appear-before-punctuation-marks](https://forums.zotero.org/discussion/56749/chicago-manual-of-style-citations-footnotes-appear-before-punctuation-marks).
 
-To address this issue, two macros are proposed that search for all Zotero references in the document and correct them after switching from footnote/endnote references  to author-year references or from author-year references  to footnote/endnote references.
+To address this issue, two VBA macros are devised in `StyleChangeCleanup.bas` that search for all Zotero references in the document and correct them after switching from footnote/endnote references  to author-year references or from author-year references  to footnote/endnote references.
 
-`CleanUpAfterChangingAuthorDateToNotes` should be run after author-date references were converted to footnotes/endnotes.
-`CleanUpAfterChangingNotesToAuthorDate` should be run after footnotes/endnotes were converted to author-date references.
+* `CleanUpAfterChangingAuthorDateToNotes` should be run after author-date references were converted to footnotes/endnotes.  
+* `CleanUpAfterChangingNotesToAuthorDate` should be run after footnotes/endnotes were converted to author-date references.
 
 I only tested them in Word 2016 under Windows 7, but I guess they should word under any version of Word for Windows 2007-2016.
