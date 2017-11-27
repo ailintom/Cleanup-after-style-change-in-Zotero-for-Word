@@ -1,6 +1,6 @@
 ### Cleanup after style change in Zotero for Word
 
-Many users encounter a problem after converting citations from an author-date (or any other inline) style to footnotes/endnotes and vice versa. In English these types of reference should be positioned differently respective the punctuation: footnote/endnote references are preceded by all punctuation marks except dashed and quotation marks and are not separated by a space from the preceding word. Author-date references should be preceded by a space and should precede any punctuation marks. 
+Many users encounter a problem after converting citations from an author-date style (or any other inline style, for example numbered citations)  to footnotes/endnotes and vice versa. In English these types of reference should be positioned differently respective the punctuation: footnote/endnote references are preceded by all punctuation marks except dashed and quotation marks and are not separated by a space from the preceding word. Author-date references should be preceded by a space and should precede any punctuation marks. 
 Correct examples: 
 > It was suggested in earlier literature,<sup>4</sup> but I disagree with that!!!<sup>5</sup>   
 > It was suggested in earlier literature (Fu 2015, 5), but I disagree with that (Me 2016, 77)!!!
